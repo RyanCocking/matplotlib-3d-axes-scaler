@@ -96,6 +96,11 @@ if __name__ == "__main__":
     ax.set_ylabel("y", weight="bold")
     ax.set_zlabel("z", weight="bold")
 
-    Axes3D.get_proj = scale_3d_projection(1, 2, 3)
+    scale_x = 3
+    scale_y = 3
+    scale_z = 2
+
+    ax.set_title(f"Scale: ({scale_x:.1f}, {scale_y:.1f}, {scale_z:.1f})")
+    Axes3D.get_proj = scale_3d_projection(scale_x, scale_y, scale_z)
 
     plt.show()

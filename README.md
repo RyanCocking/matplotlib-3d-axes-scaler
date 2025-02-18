@@ -1,4 +1,4 @@
-
+**NOTE:** This solution is made obsolete by [`matplotlib.axes.Axes.set_box_aspect`](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set_box_aspect.html)!
 
 Matplotlib 3D axes scaler
 ===
@@ -6,7 +6,7 @@ Matplotlib 3D axes scaler
 [![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3113/)
 
 
-Adjust the length of the axes in a 3D Matplotlib plot. Useful for displaying data that has a larger range in one or two axes.
+Adjust the aspect ratio of a 3D Matplotlib plot. Useful for displaying data that has a larger range in one or two axes.
 
 Wrapper around [this solution](https://stackoverflow.com/questions/30223161/how-to-increase-the-size-of-an-axis-stretch-in-a-3d-plot) from Christian Sarofeen on Stack Overflow.
 
